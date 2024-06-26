@@ -1,5 +1,7 @@
 <script>
 	import Card from '../components/card.svelte';
+	import Search from '../components/search.svelte';
+	import Qr from '../components/qr.svelte';
 
 	const guests = [{
 		name: 'Rebecca Ravnsborg Bjørklund',
@@ -17,12 +19,15 @@
 		<div>LOGO</div>
 	</div>
 	<div class="search-container">
-		<div>SEARCH</div>
+		<Search />
 	</div>
 	<div class="guests-container">
 		{#each guests as guest}
-			<Card name={guest.name} title="Guest" description={guest.description} />
+			<Card name={guest.name} title={guest.title} description={guest.description} />
 		{/each}
+	</div>
+	<div class="qr">
+		<Qr />
 	</div>
 </div>
 
@@ -31,14 +36,16 @@
         margin: 0;
         padding: 0;
         background-color: #182B1F;
+        font-family: Geist, serif;
     }
 
     .navigation-container {
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 5fr;
+        grid-template-rows: 1fr 1fr 5fr 1fr;
+        padding: 0 2vw;
         height: 100vh;
-        max-width: 30vw;
+        max-width: 25vw;
         border-right: .5px solid white;
     }
 
@@ -51,7 +58,7 @@
         display: flex;
         flex-direction: column;
         gap: 2em;
-        padding: 0 2vw;
+
 
     }
 </style>
