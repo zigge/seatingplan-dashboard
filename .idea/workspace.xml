@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="183b84fe-20b4-49c8-a418-b093d5ad2d8e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/qr.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/card.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/card.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/search.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/search.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/qr.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/qr.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+page.svelte" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,6 +57,12 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/static" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -79,7 +80,7 @@
       <updated>1718798633592</updated>
       <workItem from="1718798634623" duration="6000" />
       <workItem from="1719426132820" duration="2378000" />
-      <workItem from="1719428578475" duration="4848000" />
+      <workItem from="1719428578475" duration="10091000" />
     </task>
     <servers />
   </component>
